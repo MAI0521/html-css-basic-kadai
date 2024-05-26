@@ -3,6 +3,12 @@ html {
     font-size: 20px;
 }
 
+/* bodyタグ用に次のルールを設定する */
+body {
+    text-align: center;
+    font-family: "Arial", "Meiryo", sans-serif;
+}
+
 .text-bold {
     font-weight: bold;
 }
@@ -13,12 +19,6 @@ html {
 
 .blue-color {
     color:skyblue;
-}
-
-/* bodyタグ用に次のルールを設定する */
-body {
-    text-align: center;
-    font-family: "Arial", "Meiryo", sans-serif;
 }
 
 h1 {
