@@ -1,3 +1,8 @@
+/* htmlタグ用に大きいルールを設定する */
+html {
+    font-size: 20px;
+}
+
 .text-bold {
     font-weight: bold;
 }
@@ -10,7 +15,8 @@
     color:skyblue;
 }
 
-* {
+/* bodyタグ用に次のルールを設定する */
+body {
     text-align: center;
     font-family: "Arial", "Meiryo", sans-serif;
 }
@@ -25,27 +31,6 @@ h1 {
     text-shadow: 1px 1px 2px lightpink;
 }
 
-.h1-pink {
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    color: rgb(255, 192, 203);
-    font-size: 2rem;
-    letter-spacing: 1.2rem;
-    border-bottom: solid 3px rgb(115,115,114);
-    font-style: normal;
-    text-shadow: 1px 1px 2px lightpink;
-}
-
-.h1-blue {
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    color: skyblue;
-    font-size: 2rem;
-    letter-spacing: 1.2rem;
-    border-bottom: solid 3px rgb(115,115,114);
-    font-style: normal;
-    text-shadow: 1px 1px 2px lightpink;
-}
 
 #basic > p {
     font-weight: bold;
